@@ -109,7 +109,7 @@ async function getTime(){
     console.log(dt);
     var hr = dt.slice(11,13);
     console.log(hr);
-    if(hr>=18 && hr <= 6){
+    if(hr>=6 && hr <= 18){
         bg = "sprites/bg.png";
     }else{
        bg = "sprites/bg2.jpg"
